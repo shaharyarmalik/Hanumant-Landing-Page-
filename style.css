@@ -1,0 +1,1360 @@
+
+
+    /* Nav Baar */
+        #nav-bar{
+            position: fixed;
+            height: 60px;
+            width: 100%;
+            padding: 0;
+            margin-left: -8px;
+            background-color: white;
+            margin-top: -8px;
+            box-shadow: 1px 1px 12px 1px grey;
+            animation: malik infinite;
+            animation-duration: 15s;
+        }
+
+        @keyframes malik{
+            0%{
+                background-color: white;
+            }
+            20%{
+                background-color: wheat;
+            }
+            40%{
+                background-color: plum;
+            }
+            60%{
+                background-color: salmon;
+            }
+            80%{
+                background-color: rgb(210, 241, 148);
+            }
+        }
+
+
+
+        #ul1 #li1{
+            float: left;
+            padding: 10px 20px;
+            list-style: none;
+        }
+        #A{
+            margin-top: -58px;
+            margin-left: 650px;
+            text-decoration: none;
+            text-decoration: underline none;
+        }
+        #A2{
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        /* nav bar end */
+
+        /* Banner */
+        #banner{
+            background-image: url(image/hnmnt.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 416px;
+            width: 1423px;
+            overflow: hidden;
+            padding: 0px;
+            margin-left: -8px;
+            margin-top: 33px;
+        }
+
+        /* Heading */
+        #B{
+            margin-top: 120px;
+            color: white;
+            margin-left: 100px;
+            font-weight: bold;
+        }
+        #B1{
+            width: 42%;
+            height: 4px;
+            border: 0 none;
+            background-color: white;
+            margin-left: 100px;
+            margin-top: -28px;
+        }
+        #B2{
+            color: white;
+            margin-left:100px;
+            font-size: 20px;
+            margin-top: -15px;
+        }
+
+        #B3{
+            color: white;
+            margin-left:100px;
+            font-size: 20px;
+            margin-top: -10px;
+        }
+        /* Banner End */
+
+
+        /* About Section */
+        #about-section{
+            height: 415px;
+            width: 1423px;
+            background-color: white;
+            margin-left: -8px;
+            padding: 55px 0;
+        }
+        #image{
+            background-image: url(image/h-about.png);
+            background-size: 100% 100%;
+            width: 590px; 
+            height: 380px; 
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+
+        #box1{
+            height: 130px;
+            width: 230px;
+            border: 1px solid salmon;
+            background-color:salmon;
+            border-radius: 5px;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            margin-top: -410px;
+            margin-left: 459px;
+        }
+        #box1:hover{
+            background-color: #171F32;
+        }
+        #box01{
+        background: url(image/Box1.png);
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-left: 90px;
+        margin-top: 22px;
+        }
+        
+        #box2{
+            height: 130px;
+            width: 230px;
+            background-color:#171F32;
+            border: 1px solid #171F32;
+            border-radius: 5px;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 25px;
+            margin-left: 459px;
+        }
+        #box2:hover{
+            background-color: salmon;
+        }
+        #box02{
+        background: url(image/Box2\ \(1\).png);
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-left: 90px;
+        margin-top: 22px;
+        }
+
+        #box3{
+            height: 130px;
+            width: 230px;
+            background-color:#171F32;
+            border: 1px solid #171F32;
+            border-radius: 5px;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            line-height: 50px;
+            margin-top: 25px;
+            margin-left: 460px;
+        }
+        #box3:hover{
+            background-color: salmon;
+        }
+        #box03{
+        background: url(image/Box3.png);
+        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        margin-left: 90px;
+        margin-top: 22px;
+       }
+       /* Pragraph */
+       #C{
+            width: 560px; 
+            height: 380px; 
+            margin-left: 780px;
+            margin-top: -430px;
+        }
+        #C1{
+            font-size: 18px;
+            text-align: justify;
+            line-height: 30px;
+            word-spacing: 1px;
+        }
+        /* About section end */
+
+
+        /* service section */
+        #service-section{
+            height: 1320px;
+            width: 1423px;
+            margin-left: -8px;
+            background-color: #f3f8f9;
+            padding: 0;
+           
+        }
+        #D1{
+            height: 370px;
+            width: 500px;
+            margin-top: 80px; 
+            float: left;
+        }
+
+        #D2{
+            text-align: justify;
+            line-height: 150px;
+            margin-left: 120px;
+            font-size: 18px;
+            font-family: serif;
+            color: #21a7d0;
+        }
+        #D3{
+            margin-left: 120px;
+            margin-top: -70px;
+            color: #112958;
+            text-align: justify;
+        }
+
+        #image2{
+            background: linear-gradient(transparent, #273c66), url(image/image1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%; width: 380px; height:380px; float: left; margin-left:30px; margin-top: 80px; border-radius: 3px;
+        }
+
+        #image3{
+            background-image: linear-gradient(transparent, #273c66), url(image/image2.jpg); background-repeat: no-repeat; background-size: 100% 100%; width: 380px; height:380px; float: left; margin-top: 80px; border-radius: 3px; margin-left: 30px;
+        }
+        
+        #image4{
+            background-image:linear-gradient(transparent, #273c66), url(image/image3.jpg); background-repeat: no-repeat; background-size: 100% 100%; width: 380px; height:380px; margin-top: 28px; border-radius: 3px; margin-left: 120px;float:left;
+        }
+        
+        #image5{
+            background-image:linear-gradient(transparent, #273c66), url(image/image4.webp); background-repeat: no-repeat; background-size: 100% 100%; width: 380px; height:380px; margin-top: 28px; border-radius: 3px; margin-left: 29px;float:left;
+        }
+        
+        #image6{
+            background-image:linear-gradient(transparent, #273c66), url(image/image5.jpg); background-repeat: no-repeat; background-size: 100% 100%; width: 380px; height:380px; margin-top: 28px; border-radius: 3px; margin-left: 29px;float:left;
+        }
+       
+        #image7{
+            background-image:linear-gradient(transparent, #273c66), url(image/image6.png); background-repeat: no-repeat; background-size: 100% 100%; width: 435px; height:400px; margin-top: 28px; border-radius: 3px; margin-left: 30px;float:left;
+        }
+       
+        #image8{
+            background-image:linear-gradient(transparent, #273c66), url(image/image7.jpg); background-repeat: no-repeat; background-size: 100% 100%; width: 435px; height:400px; margin-top: 28px; border-radius: 3px; margin-left: 29px;float:left;
+        }
+       
+        #image9{
+            background-image:linear-gradient(transparent, #273c66), url(image/image-autocad-course.jpg); background-repeat: no-repeat; background-size: 100% 100%; width: 435px; height:400px; margin-top: 28px; border-radius: 3px; margin-left: 29px;float:left;
+        }
+        /* service section end*/
+
+
+        /* canva section */
+        #canva{
+            height: 220px;
+            width: 1423px;
+            margin-left: -8px;
+            padding: 55px 0;
+            /* background: linear-gradient(to right, rgba(12, 12, 75, 0.94), rgb(40, 40, 40),rgba(12, 12, 75, 0.94), rgb(40, 40, 40),rgba(12, 12, 75, 0.94)); */
+            background: url(image/module-bg2.jpg);
+        }
+        
+        #btn-box{
+            height: 48px;
+            width: 655px;
+            margin: 0px auto;
+            /* border: 1px solid red; */
+        }
+        #canva-btn1{
+            height: 48px;
+            width: 170px;
+            border: 1px solid white;
+            box-shadow: 1px 1px 8px 1px white;
+            border-radius: 10px;
+            text-align: center;
+            float: left;
+        }
+        #canva-btn1:hover{
+            background-color: yellowgreen;
+        }
+        #canva-btn2{
+            height: 48px;
+            width: 230px;
+            border: 1px solid white;
+            box-shadow: 1px 1px 8px 1px white;
+            border-radius: 10px;
+            text-align: center;
+            float: left;
+            margin-left: 20px;
+        }
+        #canva-btn2:hover{
+            background-color: salmon;
+        }
+        #canva-btn3{
+            height: 48px;
+            width: 210px;
+            border: 1px solid white;
+            box-shadow: 1px 1px 8px 1px white;
+            border-radius: 10px;
+            float: left;
+            text-align: center;
+            margin-left: 19px;
+            float: left;
+        }
+        #canva-btn3:hover{
+            background-color: yellowgreen;
+        }
+        /* canva end */
+
+        
+        /* featured service */
+        #featured-service{
+            height: 670px;
+            width: 1423px;
+            margin-left: -8px;
+            padding: 55px 0px;
+            background: #FAFAFA url(image/featured-service-bg.png) no-repeat center top;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        #data-base{
+            height: 260px;
+            width: 380px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            margin-top: 25px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 23px 1px plum;
+            background: rgba(255, 255, 255, 0.8);
+            margin-left: 90px;
+            float: left;
+        }
+        #data-base:hover{
+            background-color: black;
+        }
+        #data-png{
+        height: 90px;
+        width: 90px;
+        background-color: #ffbe00;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 35px;
+       }
+       #F{
+        height: 55px;
+        width: 45px;
+        margin-left: 23px;
+        margin-top: 17px;
+       }
+
+
+       #f-service{
+            height: 260px;
+            width: 380px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            margin-top: 25px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 23px 1px plum;
+            background: rgba(255, 255, 255, 0.8);
+            margin-left: 40px;
+            float: left;
+        }
+        #f-service:hover{
+            background-color: black;
+        }
+       #f-service-icon{
+        height: 90px;
+        width: 90px;
+        background-color: #ffbe00;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 35px;
+       }
+       #G{
+        height: 50px;
+        width: 45px;
+        margin-left: 23px;
+        margin-top: 17px;
+       }
+
+
+   
+       #headphone{
+            height: 260px;
+            width: 380px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            margin-top: 25px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 23px 1px plum;
+            background: rgba(255, 255, 255, 0.8);
+            margin-left: 40px;
+            float: left;
+        }
+        #headphone:hover{
+            background-color: black;
+        }
+       #headphone-icon{
+        height: 90px;
+        width: 90px;
+        background-color: #ffbe00;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 35px;
+       }
+       #H{
+        height: 55px;
+        width: 45px;
+        margin-left: 23px;
+        margin-top: 17px;
+       }
+
+
+
+       #mail{
+            height: 260px;
+            width: 380px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            margin-top: 40px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 23px 1px plum;
+            background: rgba(255, 255, 255, 0.8);
+            margin-left: 90px;
+            float: left;
+        }
+        #mail:hover{
+            background-color: black;
+        }
+        #mail-icon{
+        height: 90px;
+        width: 90px;
+        background-color: #ffbe00;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 35px;
+       }
+       #I{
+        height: 55px;
+        width: 45px;
+        margin-left: 23px;
+        margin-top: 17px;
+       }
+
+       
+       
+       #dropbox{
+            height: 260px;
+            width: 380px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            margin-top: 40px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 23px 1px plum;
+            background: rgba(255, 255, 255, 0.8);
+            margin-left: 40px;
+            float: left;
+        }
+        #dropbox:hover{
+            background-color: black;
+        }
+       #dropbox-icon{
+        height: 90px;
+        width: 90px;
+        background-color: #ffbe00;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 35px;
+       }
+       #J{
+        height: 50px;
+        width: 45px;
+        margin-left: 23px;
+        margin-top: 17px;
+       }
+
+
+      
+       #wifi{
+            height: 260px;
+            width: 380px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            margin-top: 40px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 23px 1px plum;
+            background: rgba(255, 255, 255, 0.8);
+            margin-left: 40px;
+            float: left;
+        }
+        #wifi:hover{
+            background-color: black;
+        }
+       #wifi-icon{
+        height: 90px;
+        width: 90px;
+        background-color: #ffbe00;
+        border-radius: 50%;
+        margin: 0px auto;
+        margin-top: 35px;
+       }
+       #K{
+        height: 55px;
+        width: 45px;
+        margin-left: 23px;
+        margin-top: 17px;
+       }
+       /* featured service end */
+
+
+       /* Placement Partner */
+       /* #cover51{
+        height: 120px;
+        width: 1423px;
+        border: 1px solid red;
+       } */
+       #placement-section{
+        height: 500px;
+        width: 1423px;
+        margin-left: -8px;
+        padding: 0;
+        /* border: 1px solid white; */
+       }
+    #L2{
+        height: 65px;
+        width: 1200px;
+        margin: 0px auto;
+        margin-top: 5px;
+       }
+       #L3{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        float: left;
+       }
+       #L4{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        float: left;
+       }
+       #L5{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        float: left;
+       }
+       #L6{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        float: left;
+       }
+       #L7{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 17px;
+        float: left;
+       }
+       /* placement image line 2 */
+       #M{
+        height: 65px;
+        width: 1200px;
+        /* margin: 0px auto; */
+        margin-top: 16px;
+       }
+       #M2{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 110px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M3{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M4{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M5{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M6{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 17px;
+        margin-top: 15px;
+        float: left;
+       }
+       /* plcmnt lyn 3 */
+       #M7{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 110px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M8{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M9{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M10{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M11{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 17px;
+        margin-top: 15px;
+        float: left;
+       }
+       /* plcmnt lyn 4 */
+       #M12{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 110px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M13{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M14{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M15{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 16px;
+        margin-top: 15px;
+        float: left;
+       }
+       #M16{
+        height: 65px;
+        width: 225px;
+        /* border:1px solid red; */
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px red;
+        border-radius: 3px;
+        margin-left: 17px;
+        margin-top: 15px;
+        float: left;
+       }
+
+       /* view more button */
+       #M17{
+        height: 50px;
+        width: 190px;
+        border:1px solid black;
+        border-radius: 5px;
+        box-shadow: 1px 1px 12px 0px black;
+        margin-left: 602px;
+        margin-top: 45px;
+        float: left;
+        text-align: center;
+        line-height: 10px;
+        }
+        #M17:hover{
+            background-color: orange;
+        }
+
+
+
+        /* selected student */
+        #selected-student{
+        height: 1050px;
+        width: 1423px;
+        margin-left: -8px;
+        padding: 20px 0;
+        /* border: 1px solid #f5f5f5; */
+        background-color: #f5f5f5;
+       }
+       #cover52{
+        /* height: 60px; */
+        /* width: 390px; */
+        /* border: 1px solid red; */
+        box-shadow: 1px 1px 12px 0px orange;
+        margin-top: 70px;
+       }
+       /* 1 student */
+       #photo1{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-left: 70px;
+        float: left;
+       }
+       #student1{
+        height: 180px; border: 1px solid grey; margin-left: 67px; margin-top: 5px;
+       }
+       #photo1:hover{
+        background-color: greenyellow;
+       }
+
+       /* 2nd student */
+       #photo2{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student2{
+        height: 120px; border: 1px solid grey; margin-left: 75px; margin-top: 30px;
+       }
+       #photo2:hover{
+        background-color: greenyellow;
+       }
+
+       /* 3r student */
+       #photo3{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student3{
+        height: 120px; border: 1px solid grey; margin-left: 75px; margin-top: 30px;
+       }
+       #photo3:hover{
+        background-color: greenyellow;
+       }
+
+       /* 4th student */
+       #photo4{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student4{
+        height: 120px; border: 1px solid grey; margin-left: 75px; margin-top: 30px;
+       }
+       #photo4:hover{
+        background-color: greenyellow;
+       }
+
+       /* 5th student */
+       #photo5{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 70px;
+        float: left;
+       }
+       #student5{
+        height: 120px; border: 1px solid grey; margin-left: 75px; margin-top: 30px;
+       }
+
+       /* 6th student */
+       #photo6{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student6{
+        height: 120px; border: 1px solid grey; margin-left: 90px; margin-top: 30px;
+       }
+
+       /* 7thstudent */
+       #photo7{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student7{
+        height: 120px; border: 1px solid grey; margin-left: 90px; margin-top: 30px;
+       }
+
+       /* 8th student */
+       #photo8{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student8{
+        height: 120px; border: 1px solid grey; margin-left: 90px; margin-top: 30px;
+       }
+
+       /* 9th student */
+       #photo9{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 70px;
+        float: left;
+       }
+       #student9{
+        height: 120px; border: 1px solid grey; margin-left: 75px; margin-top: 30px;
+       }
+
+       /* 6th student */
+       #photo10{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student10{
+        height: 120px; border: 1px solid grey; margin-left: 90px; margin-top: 30px;
+       }
+
+       /* 7thstudent */
+       #photo11{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student11{
+        height: 120px; border: 1px solid grey; margin-left: 90px; margin-top: 30px;
+       }
+
+       /* 8th student */
+       #photo12{
+        height: 250px;
+        width: 280px;
+        background-color: #fff;
+        box-shadow: 1px 1px 12px 0px rgba(0, 109, 128, 0.928);
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+       }
+       #student12{
+        height: 120px; border: 1px solid grey; margin-left: 90px; margin-top: 30px;
+       }
+
+       /* button view more */
+       #view{
+        height: 55px;
+        width: 210px;
+        border: 1px solid black;
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px black;
+        border-radius: 5px;
+        margin-top: 80px;
+        margin-left: -465px;
+        
+       }
+       #view:hover{
+        background-color: yellowgreen;
+       }
+       /* selected student end */
+
+        
+       /* partition section */
+       #partition-section{
+        height: 500px;
+        width: 1423px;
+        margin-left: -8px;
+        padding: 30px 0;
+        background-color:#f5f5f5;
+       
+       }
+       #partition-image1{
+        background: url(image/partition-bg2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 550px;
+        width: 712px;
+        float: left;
+        
+       }
+       #partition-image2{
+        background: url(image/partition-bg1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 711px;
+        height: 550px;
+        float: left;
+        
+        
+       }
+       /* pragraph */
+       #O4{
+        height: 260px;
+        width: 400px;
+        /* border: 1px solid grey; */
+        margin-left: 70px;
+       }
+       /* contact button */
+       #O5{
+        height: 55px;
+        width: 200px;
+        background-color: transparent;
+        border: 1px solid white;
+        box-shadow: 1px 1px 8px 1px white;
+        border-radius: 5px;
+        margin-left: 70px;
+       }
+       #O5:hover{
+        background-color: black;
+       }
+       /* partition section end */
+
+
+       /* catalogue section */
+       #catalogue-section{
+        height: 170px;
+        width: 1423px;
+       background-color: none;
+        margin-left: -8px;
+        padding: 80px 0;
+
+       
+       
+       }
+       #P{
+        height: 190px; width: 300px;
+        background-color:black;
+        box-shadow: 1px 1px 18px 1px red;
+        border-radius: 5px;
+        float: left;
+        margin-left: 50px;
+       }
+       #P:hover{
+        background-color: rgb(10, 80, 75);
+       }
+
+       #P2{
+        height: 190px; width: 300px;
+        background-color:black;
+        box-shadow: 1px 1px 18px 1px red;
+        border-radius: 5px;
+        margin-left: 40px;
+        float: left;
+       }
+       #P2:hover{
+        background-color: rgb(10, 80, 75);
+       }
+
+       #P3{
+        height: 190px; width: 300px;
+        background-color:black;
+        box-shadow: 1px 1px 18px 1px red;
+        border-radius: 5px;
+        margin-left: 40px;
+        float: left;
+       }
+       #P3:hover{
+        background-color: rgb(10, 80, 75);
+       }
+
+       #P4{
+        height: 190px; width: 300px;
+        background-color:black;
+        box-shadow: 1px 1px 18px 1px red;
+        border-radius: 5px;
+        margin-left: 40px;
+        float: left;
+       }
+       #P4:hover{
+        background-color: rgb(10, 80, 75);
+       }
+       /* catalogue section end */
+
+
+
+       /* feature-section */
+       #feature-section{
+        height:310px;
+        width: 1423px;
+        margin-left: -8px;
+      
+    
+       }
+       #Q{
+        background: url(image/module-bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 1423px;
+        padding: 50px 0;
+       }
+       /* feature */
+       #Q2{
+        height: 230px; width: 1100px;
+        /* border: 1px dotted white; */
+         margin-left: 155px;
+       }
+       /* feature 1 */
+       #Q3{
+        height: 230px; width: 275px;
+        /* background-color: aliceblue; */
+        float: left;
+       }
+       /* feature 2 */
+       #Q4{
+        height: 230px; width: 275px;
+        /* background-color: aliceblue; */
+        float: left;
+       }
+       /* feature 3 */
+       #Q5{
+        height: 230px; width: 275px;
+        /* background-color: aliceblue; */
+        float: left;
+       }
+       /* feature 4 */
+       #Q6{
+        height: 230px; width: 275px;
+        /* background-color: aliceblue; */
+        float: left;
+       }
+       /* feature section end */
+
+
+       /* form section */
+       #form-section{
+        height: 220px;
+        width: 1423px;
+        margin-left: -8px;
+        padding:50px 0;
+        background-color:white;
+        border-bottom: 8px solid yellowgreen;
+       }
+   
+       #form-heading{
+        height: 100px;
+        width: 550px;
+        border: 1px solid white;
+        margin-top: 20px;
+        margin-left: 440px;
+        }
+        #form1{
+        margin-left: 486px;
+        margin-top: 10px;
+        }
+
+       #email{
+        height: 33px;
+        width: 340px;
+        border: 1px solid #885aa6;
+        border-radius: 5px;
+        box-shadow: 1px 1px 8px 1px black;
+       }
+       #email:hover{
+        background-color: wheat;
+       }
+       #submit{
+        margin-left: 10px;
+        height: 36px;
+        width: 105px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: wheat;
+        box-shadow: 1px 1px 8px 1px black;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+       }
+       #submit:hover{
+        background-color: orange;
+       }
+       /* form-section end */
+
+       /* footer section */
+       #footer{
+        height: 400px;
+        width: 1423px;
+        margin-left: -8px;
+        padding: 50px 0;
+        background-color: #171F32;
+       }
+       #row{
+        height: 300px;
+        width: 1400px;
+        /* border: 1px dotted red; */
+        margin: 0px auto;
+        margin-top: -30px;
+        }
+
+        #rowbox{
+            height: 300px;
+            width: 315px;
+            /* border: 1px solid red; */
+            float: left;
+            color: #acb2bc;
+            margin-left: 110px;
+        }
+        #rowbox2{
+            height: 300px;
+            width: 240px;
+            /* border: 1px solid red; */
+            float: left;
+            color: #acb2bc;
+            margin-left: 70px;
+        }
+
+        #rowbox3{
+            height: 300px;
+            width: 265px;
+            /* border: 1px solid red; */
+            float: left;
+            color: #acb2bc;
+            margin-left: 25px;
+        }
+
+        #rowbox4{
+            /* height: 160px;
+            width: 350px; */
+            /* border: 1px solid red; */
+            float: left;
+            color: #acb2bc;
+        }
+
+        /* form box */
+        #footer-form{
+            height: 43px;
+            width: 260px;
+            /* border: 1px solid red; */
+            float: left;
+        }
+        #last{
+            height: 42px;
+            width: 200px;
+            border: none;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            margin-top: -2px;
+        }
+        #last:hover{
+            background-color: yellowgreen;
+        }
+        #baton{
+            height: 43px; width: 50px; 
+            /* border: 1px solid red; */
+            margin-left: 204px; margin-top: -44.5px;
+        }
+        
+        #last2{
+            height: 45px;
+            width: 60px;
+            background-color: #885aa6;
+            border: none;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        #last2:hover{
+            background-color: yellowgreen;
+        }
+
+        #last3{
+            height: 20px;
+            border: none;
+        }
+
+        #ulimage #liimage{
+            list-style: none;
+            float: left;
+            padding:  6px;
+            margin-top: 20px;
+        }
+
+        #flat{
+            height: 30px;
+        }
+        #ullibox{
+            height: 45px;
+            width: 262px;
+            /* border: 1px solid; */
+            margin-left: 975px;
+        }
+
+
+        /* Media Query */
+
+       /* @media screen and (min-width:450px) and (max-width:1024px) {
+
+            #nav-bar{
+                height: 60px;
+                width: 350px;
+
+            }
+
+            #banner{
+                   height: 350px;
+                   width: 400px;
+            }
+
+            B{
+                text-align: center;
+                font-size: 20px;
+                
+            }
+            
+        } */
+
+        
